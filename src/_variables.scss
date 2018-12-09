@@ -7,7 +7,7 @@
 *					  Colors Definitions
 **************************************************************/
 
-$color-primary: #85CE36 !default;
+$color-primary: #52BCD3 !default;
 $color-primary-light: lighten($color-primary, 10%) !default;
 $color-primary-lighter: lighten($color-primary-light, 6%) !default;
 $color-primary-dark: darken($color-primary, 10%) !default;
@@ -16,8 +16,8 @@ $color-primary-darker: darken($color-primary-dark, 6%) !default;
 $color-divider: #d7dde4 !default;
 $color-bg: #f0f3f6 !default;
 
-$color-text: #4f5f6f !default;
-$color-text-light: #7e8e9f !default;
+$color-text: #242a30 !default;
+$color-text-light: #4d6075 !default;
 $color-text-muted: #C2CCD6;
 $color-text-inverse: #ffffff !default;
 $color-text-passive: #c5c5c5 !default;
@@ -41,7 +41,7 @@ $btn-primary-color-text: $color-text-inverse !default;
 
 
 // Links
-$link-color: #969696 !default;
+$link-color: #767696 !default;
 $link-transition: initial;
 $link-decoration: underline;
 
