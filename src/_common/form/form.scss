@@ -68,10 +68,12 @@ textarea {
 	}
 
 	span.input-group-addon {
-		font-style: italic;
+		font-style: normal;
 		border: none;
 		border-radius: 0;
-		border: none;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+		vertical-align: baseline;
 		background-color: $color-divider;
 		transition: background-color ease-in-out 15s, color ease-in-out .15s;
 
