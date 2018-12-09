@@ -1,6 +1,6 @@
 # ModularAdmin for Glued
 
-A sassed up and (better) secured ModularAdmin (v1).
+A sassed up and (better) secured ModularAdmin (v1). Screenshots and descriptions below are from the original/upstream version of this README file.
 
 [![demo](http://modularcode.github.io/modular-admin-html/assets/demo.png)](http://modularcode.github.io/modular-admin-html/)
 
