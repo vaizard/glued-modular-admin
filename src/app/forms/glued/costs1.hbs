@@ -1,49 +1,73 @@
 <div class="card card-block sameheight-item">
 	<div class="title-block">
 		<h3 class="title">
-			Input Groups
+			Cost 41/2/18/2331    [wire now / add to wire que / pay cash / paid in cash/wire on ...]
 		</h3>
 	</div>
 	<form>
-        <div class="form-group">
-            <label class="control-label">Metadata</label>
-            <div class="input-group input-group-sm">
-                <span class="input-group-addon">Nr.</span>
-                <input type="text" class="form-control" placeholder="Invoice nr., or similar">
-            </div>
-            <div class="input-group input-group-sm">
-                <span class="input-group-addon">Type</span>
-                <input type="text" class="form-control" placeholder="Cost type">
-            </div>
-	</div>
 	<div class="row form-group">
-	    <div class="col-6 input-group input-group-sm">
-                <span class="input-group-addon">Issued</span>
-		<input type="date" class="form-control" placeholder="dd/mm/yy">
-	    </div>
+            <label class="control-label col-12">Metadata</label>
 	    <div class="col-6 input-group input-group-sm">
                 <span class="input-group-addon">Taxable</span>
 		<input type="date" class="form-control" placeholder="dd/mm/yy">
 	    </div>
+
+	    <div class="col-6 input-group input-group-sm">
+                <span class="input-group-addon">Due</span>
+		<input type="date" class="form-control" placeholder="dd/mm/yy">
+	    </div>
+
+            <div class="col-6 input-group input-group-sm">
+                <span class="input-group-addon">Nr.</span>
+                <input type="text" class="form-control" placeholder="Invoice nr., or similar">
+            </div>
+            <div class="col-6 input-group input-group-sm">
+                <span class="input-group-addon">Analytics</span>
+                <input type="text" class="form-control" placeholder="Expenditure type">
+            </div>
+            <div class="col-12 input-group input-group-sm">
+                <span class="input-group-addon">Dscr.</span>
+                <input type="text" class="form-control" placeholder="Description">
+            </div>
+
+            <label class="control-label col-12">Links</label>
+
+	    <div class="col-3 input-group input-group-sm">
+                <span class="input-group-addon">1</span>
+		<input type="text" class="form-control" placeholder="id 1">
+	    </div>
+	    <div class="col-3 input-group input-group-sm">
+                <span class="input-group-addon">2</span>
+		<input type="dtext" class="form-control" placeholder="id 2">
+	    </div>
+	    <div class="col-6 input-group input-group-sm">
+                <span class="input-group-addon">SW</span>
+		<input type="text" class="form-control" placeholder="DEEF">
+                <button type="submit" class="btn btn-sm btn-primary btn-pill-right">+</button>
+	    </div>
 	</div>
 
 
-        <div class="form-group">
-            <label class="control-label">Supplier</label>
-            <div class="input-group input-group-sm">
+        <div class="row form-group">
+            <label class="control-label col-12">Supplier</label>
+            <div class="col-9 input-group input-group-sm">
                 <span class="input-group-addon">Name</span>
                 <input type="text" class="form-control" placeholder="Supplier name">
             </div>
-            <div class="input-group input-group-sm">
+	    <div class="col-3 input-group input-group-sm">
+		<select class="form-control form-control-sm">
+		  <option>legal</option>
+		  <option>natural</option>
+		</select>
+	    </div>
+            <div class="col-12 input-group input-group-sm">
                 <span class="input-group-addon">Address</span>
                 <input type="text" class="form-control" placeholder="Supplier address">
             </div>
-            <div class="input-group input-group-sm">
+            <div class="col-12 input-group input-group-sm">
                 <span class="input-group-addon">DOB</span>
                 <input type="text" class="form-control" placeholder="Datum narození">
             </div>
-	</div>
-	<div class="row form-group">
 	    <div class="col-6 input-group input-group-sm">
                 <span class="input-group-addon">ID</span>
 		<input type="text" class="form-control" placeholder="IČO">

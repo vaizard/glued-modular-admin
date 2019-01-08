@@ -5,54 +5,81 @@
 		</h3>
 	</div>
 	<form>
-        <div class="form-group">
-            <label class="control-label">Cost</label>
-            <div class="input-group input-group-sm">
-                <span class="input-group-addon">Total NET</span>
-                <input type="text" class="form-control" placeholder="Username">
-            </div>
-            <div class="input-group input-group-sm">
-                <span class="input-group-addon">Total VAT</span>
-                <input type="text" class="form-control" placeholder="Username">
-            </div>
-	</div>
 	<div class="row form-group">
-	    <div class="col-6 input-group input-group-sm">
-                <span class="input-group-addon">VAT %</span>
-		<input type="text" class="form-control" placeholder=".col-6" value="21">
+            <label class="control-label col-12">Total cost (exc. and inc. VAT / in alt. currency)</label>
+	    <div class="col-4 input-group input-group-sm">
+                <span class="input-group-addon">Ex</span>
+		<input type="text" class="form-control" placeholder="Cost excl. VAT">
 	    </div>
-	    <div class="col-6 input-group input-group-sm">
-                <span class="input-group-addon">Vat val</span>
-		<input type="text" class="form-control" placeholder=".col-6">
+	    <div class="col-4 input-group input-group-sm">
+                <span class="input-group-addon">In</span>
+		<input type="text" class="form-control" placeholder="Cost incl. VAT">
+	    </div>
+	    <div class="col-4 input-group input-group-sm">
+                <span class="input-group-addon">Main</span>
+		<input type="text" class="form-control" placeholder="Main currency" value="CZK">
+	    </div>
+	    <div class="col-4 input-group input-group-sm">
+                <span class="input-group-addon">Ex</span>
+		<input type="text" class="form-control bg-light" placeholder="Cost excl. VAT, alt. currency">
+	    </div>
+	    <div class="col-4 input-group input-group-sm">
+                <span class="input-group-addon">In</span>
+		<input type="text" class="form-control bg-light" placeholder="Cost incl. VAT, alt. currency.">
+	    </div>
+	    <div class="col-4 input-group input-group-sm">
+		<input type="text" class="form-control bg-light" placeholder="Exchange rate">
+		<input type="text" class="form-control bg-light" placeholder="Alt currency">
+	    </div>
+	</div>
+
+	<div class="row form-group">
+            <label class="control-label col-12">Managerial accounting 
+            <button type="submit" class="btn btn-sm btn-primary btn-pill-right btn-pill-left"><i class="fa fa-code-fork"></i> cost</button>
+	    <button type="submit" class="btn btn-sm btn-primary btn-pill-right btn-pill-left"><i class="fa fa-plus"></i> project</button>
+	    </label>
+
+	    <div class="col-4 input-group input-group-sm">
+                <span class="input-group-addon"><i class="fa fa-folder-open-o"></i></span>
+		<input type="text" class="form-control" placeholder="Project id / name">
+	    </div>
+	    <div class="col-4 input-group input-group-sm">
+                <span class="input-group-addon"><i class="fa fa-pencil-square-o"></i></span>
+		<input type="text" class="form-control" placeholder="Note">
+	    </div>
+	    <div class="col-4 input-group input-group-sm">
+		<input type="text" class="form-control" placeholder="Cost">
+		<input type="text" class="form-control" placeholder="Cost %">
 	    </div>
 	</div>
 
 
-        <div class="form-group">
-            <label class="control-label">Supplier</label>
-            <div class="input-group input-group-sm">
-                <span class="input-group-addon">Name</span>
-                <input type="text" class="form-control" placeholder="Supplier name">
-            </div>
-            <div class="input-group input-group-sm">
-                <span class="input-group-addon">Address</span>
-                <input type="text" class="form-control" placeholder="Supplier address">
-            </div>
-            <div class="input-group input-group-sm">
-                <span class="input-group-addon">DOB</span>
-                <input type="text" class="form-control" placeholder="Datum narození">
-            </div>
-	</div>
 	<div class="row form-group">
-	    <div class="col-6 input-group input-group-sm">
-                <span class="input-group-addon">ID</span>
-		<input type="text" class="form-control" placeholder="IČO">
+            <label class="control-label col-12">Financial accounting 
+            <button type="submit" class="btn btn-sm btn-primary btn-pill-right btn-pill-left"><i class="fa fa-code-fork"></i> cost</button>
+	    <button type="submit" class="btn btn-sm btn-primary btn-pill-right btn-pill-left"><i class="fa fa-plus"></i> order</button>
+            </label>
+
+	    <div class="col-4 input-group input-group-sm">
+                <span class="input-group-addon"><i class="fa fa-folder-open"></i></span>
+		<input type="text" class="form-control" placeholder="Order id / name">
 	    </div>
-	    <div class="col-6 input-group input-group-sm">
-                <span class="input-group-addon">VAT-ID</span>
-		<input type="text" class="form-control" placeholder="DIČ">
+	    <div class="col-4 input-group input-group-sm">
+                <span class="input-group-addon"><i class="fa fa-tag"></i></span>
+		<input type="text" class="form-control" placeholder="Analytics">
 	    </div>
+	    <div class="col-4 input-group input-group-sm">
+		<input type="text" class="form-control" placeholder="Cost">
+		<input type="text" class="form-control" placeholder="Cost %">
+	    </div>
+
+            <label class="control-label col-12">Attachments</label>
+	    <div class="col-12 input-group input-group-sm">
+		<button type="submit" class="btn btn-sm btn-primary btn-pill-right btn-pill-left"><i class="fa fa-paperclip"></i> files</button>
+	    </div>
+
 	</div>
+
 
     </form>
 </div>
