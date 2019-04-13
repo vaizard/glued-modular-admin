@@ -24,37 +24,33 @@ We're working hard on version 2, which is a complete rewrite.
 ## Getting Started
 
 > **Note:** If you don't want to re-build the project, you may just clone this branch directly  ```https://github.com/modularcode/modular-admin-html/tree/gh-pages```
+> **Note:** The cloned/downloaded repository contains a prebuilt version of the project, but you'll probably want to rebuild it again. You need to have [NodeJs](https://nodejs.org/en/) (v10+) with npm (v6+) installed.
+> **Warning!** all changes made in ```dist/``` folder would be overwriten on application build.
 
-### 1. [Download ZIP](https://github.com/modularcode/modular-admin-html/releases/latest) or Git Clone
+### 1. Build the project (static)
 
 ```
-git clone https://github.com/modularcode/modular-admin-html.git
-```
-### 2. Build the project
-
-The cloned/downloaded repository doesn't contain prebuilt version of the project and you need to build it. You need to have [NodeJs](https://nodejs.org/en/) (v4+) with npm (v2.15+) installed.
-
-
-Install npm dependencies 
-```
-npm install
+git clone https://github.com/modularcode/glued-modular-admin.git
+cd glued-modular-admin
+npm install   # fetch dependencies
+npm audit fix # fix security issues
+npm run build # build the project (see dist/ directory)
 ```
 
-Build the project and start local web server
+### 2. Build the project (served)
+
 ```
-npm start
+git clone https://github.com/modularcode/glued-modular-admin.git
+cd glued-modular-admin
+npm install   # fetch dependencies
+npm audit fix # fix security issues
+npm start     # build the project and start local webserver
 ```
 
 Open the project [http://localhost:4000](http://localhost:4000).
 
+You can also <strong>[run the upstream project in docker](#running-in-docker)</strong> thanks to @japrogramer
 
-**Warning!** all changes made in ```dist/``` folder would be overwriten on application build.
-
-<br>
-
-You can also <strong>[run the project in docker](#running-in-docker)</strong> thanks to @japrogramer
-
-<br>
 
 ## Folder Structure
 
